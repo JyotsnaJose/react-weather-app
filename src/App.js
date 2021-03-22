@@ -4,6 +4,7 @@ import City from "./City";
 import DateTime from "./DateTime";
 import Description from "./Description";
 import CurrentWeather from "./CurrentWeather";
+import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Description value="Clear Sky" />
           <CurrentWeather />
         </div>
+        <Footer />
       </div>
     </div>
   );
