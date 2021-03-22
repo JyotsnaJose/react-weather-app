@@ -16,12 +16,6 @@ export default function CurrentWeather() {
         <div className="col-6">
           <div className="row">
             <div className="col-sm-6 mb-3">
-              <img
-                src="/images/01d.png"
-                alt="Weather Icon"
-                id="icon"
-                className="float-start"
-              />
               <span id="temperature">{currentData.temperature}</span>
               <span className="unitConversion">
                 <a href="#" id="celsius-link" className="active">
