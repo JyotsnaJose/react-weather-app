@@ -1,0 +1,18 @@
+.Search #search-input {
+  max-width: 500px;
+}
+.Search .button-icon {
+  height: 25px;
+  width: 25px;
+}
+.Search #search {
+  box-shadow: 5px 5px 5px black;
+  max-width: 500px;
+  border-radius: 9px;
+}
+.Search .searchButtons {
+  background-color: #3a79ac;
+}
+.Search .searchButtons:hover {
+  background-color: #235faf;
+}
