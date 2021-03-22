@@ -3,6 +3,7 @@ import Search from "./Search";
 import City from "./City";
 import DateTime from "./DateTime";
 import Description from "./Description";
+import CurrentWeather from "./CurrentWeather";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
           <City value="Minnesota" />
           <DateTime value="Feb 28 2021, Sunday, 15:11 CST" />
           <Description value="Clear Sky" />
+          <CurrentWeather />
         </div>
       </div>
     </div>

@@ -1,0 +1,25 @@
+.CurrentWeather {
+  margin: 35px auto;
+}
+.CurrentWeather #icon {
+  height: 70px;
+  width: 70px;
+}
+.CurrentWeather .listImages {
+  height: 15px;
+  width: 15px;
+}
+.CurrentWeather #temperature {
+  font-size: 60px;
+  margin-left: 20px;
+}
+.CurrentWeather .tempFeelsLike {
+  display: block;
+  font-size: 13px;
+  margin-left: 100px;
+}
+.CurrentWeather .condition-list {
+  list-style: none;
+  margin-top: 15px;
+  font-size: 15px;
+}
