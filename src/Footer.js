@@ -4,7 +4,10 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="Footer">
-      <a href="https://github.com/JyotsnaJose/react-weather-app">
+      <a
+        href="https://github.com/JyotsnaJose/react-weather-app"
+        target="_blank"
+      >
         {" "}
         Open-source code
       </a>{" "}
