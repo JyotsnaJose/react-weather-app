@@ -18,12 +18,12 @@ export default function CurrentWeather() {
             <div className="col-sm-6 mb-3">
               <span id="temperature">{currentData.temperature}</span>
               <span className="unitConversion">
-                <a href="/" id="celsius-link" className="active">
+                <a href="#" id="celsius-link" className="active">
                   {" "}
                   ºC
                 </a>{" "}
                 |
-                <a href="/" id="fahenheit-link">
+                <a href="#" id="fahenheit-link">
                   {" "}
                   ºF
                 </a>
