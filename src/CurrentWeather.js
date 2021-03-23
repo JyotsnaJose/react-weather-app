@@ -1,4 +1,5 @@
 import React from "react";
+import ReactAnimatedWeather from "react-animated-weather";
 import "./CurrentWeather.css";
 
 export default function CurrentWeather() {
@@ -16,6 +17,12 @@ export default function CurrentWeather() {
         <div className="col-6">
           <div className="row">
             <div className="col-sm-6 mb-3">
+              <ReactAnimatedWeather
+                icon={"CLOUDY"}
+                color={"black"}
+                size={50}
+                animate={true}
+              />
               <span id="temperature">{currentData.temperature}</span>
               <span className="unitConversion">
                 <a href="/" id="celsius-link" className="active">
