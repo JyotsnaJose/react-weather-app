@@ -14,7 +14,7 @@ export default function App() {
         <div className="currentWeather-wrapper">
           <City value="Minnesota" />
           <DateTime value="Feb 28 2021, Sunday, 15:11 CST" />
-          <Description value="Clear Sky" />
+          <Description city="Minnesota" />
           <CurrentWeather />
         </div>
         <Footer />
